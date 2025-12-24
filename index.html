@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Developer Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Dev<span>Portfolio</span></div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="section hero">
+    <div class="hero-text">
+      <p class="hero-tag">Frontend Developer</p>
+      <h1>Hi, I'm <span>Kaushal</span></h1>
+      <p class="hero-subtitle">
+        I build clean, responsive web experiences using HTML, CSS, and JavaScript.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn ghost">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/kaushal123-git" aria-label="GitHub">GitHub</a>
+        <a href=""https://www.linkedin.com/in/kaushal-dubey-a051b035a/ aria-label="LinkedIn">LinkedIn</a>
+        
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="hero-avatar">KD</div>
+      <p class="hero-role">Web Developer</p>
+      <p class="hero-location">Mumbai, India</p>
+      <p class="hero-note">Open to internships and freelance work.</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      I am a self‑taught developer focused on building responsive, accessible websites.
+      I enjoy turning complex problems into simple, beautiful interfaces.
+    </p>
+
+    <h3 class="section-subtitle">Skills</h3>
+    <ul class="chips">
+      <li>HTML5</li>
+      <li>CSS3 / Tailwind</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-text">
+      A few projects that show my skills in layout, components, and user interaction.
+    </p>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <article class="project-card">
+        <img src="project1.jpg" alt="Screenshot of Project One" class="project-img">
+        <h3>Project One</h3>
+        <p class="project-desc">
+          Built a React-based Quiz Application with dynamic questions, progress bar, and localStorage-powered scoreboard.
+
+        </p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>Responsive</span>
+        </div>
+        <div class="project-links">
+       
+          <a href="https://github.com/kaushal123-git/react-quiz-app" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <img src="project2.jpg" alt="Screenshot of Project Two" class="project-img">
+        <h3>Project Two</h3>
+        <p class="project-desc">
+          Retro Chat Arena is a retro‑styled real‑time chat app built with React and a Node.js + Socket.IO backend. It features multiple themed rooms, usernames, per‑room message history, and a neon CRT arcade interface.
+        </p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>UI Design</span>
+        </div>
+        <div class="project-links">
+
+          <a href="https://github.com/kaushal123-git/retro-chat-arena" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card">
+        <img src="project3.png" alt="Screenshot of Project Three" class="project-img">
+        <h3>Project Three</h3>
+        <p class="project-desc">
+          Coming soon...
+        </p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>Animations</span>
+        </div>
+        <div class="project-links">
+          
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-text">
+      Have a project, internship, or question? Send a message and lets talk.
+    </p>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary">Send Message</button>
+        <a
+    href="https://wa.me/917755935388?text=Hi%20I%20saw%20your%20portfolio%20website"
+    class="btn ghost"
+    target="_blank"
+  >
+    Message me on WhatsApp
+  </a>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 KAUSHAL DUBEY. Built with HTML & CSS.</p>
+  </footer>
+</body>
+</html>
