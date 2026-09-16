@@ -1,31 +1,33 @@
-# 🚀 Project Name
+# 💼 Developer Portfolio
 
-A hands-on project created as part of my learning journey, focused on building real-world functionality and improving code structure, clarity, and implementation skills.
+A personal portfolio website showcasing my projects, skills, and background as a frontend developer, built with HTML, CSS, and JavaScript.
 
----
+## Sections
 
-## 📌 About the Project
-This project is designed to practice and apply core web development concepts by turning ideas into a functional and presentable application.  
-It reflects my progress, experimentation, and continuous improvement as a developer.
+- **Home** — Introduction and quick links to projects and contact
+- **About** — Background, skills, and technologies I work with
+- **Projects** — Highlighted project cards linking to their GitHub repositories
+- **Contact** — Ways to reach me
 
----
+## Tech Stack
 
-## ✨ Features
-- Clean and simple UI
-- Structured and readable code
-- Beginner-friendly implementation
-- Easy to run and understand
+- HTML5
+- CSS3 (custom styling, Google Fonts)
+- Responsive design
 
----
+## Getting Started
 
-## 🛠️ Tech Stack
-- HTML  
-- CSS  
-- JavaScript  
+### 1. Clone the repository
 
----
+```bash
+git clone https://github.com/kaushal123-git/portfolio.git
+cd portfolio
+```
 
-## ▶️ How to Run the Project
-1. Clone the repository
-   ```bash
-   git clone https://github.com/kaushal123-git/portfolio.git
+### 2. Open it
+
+Just open `index.html` in your browser — no build step required.
+
+## Author
+
+Built by [Kaushal Dubey](https://github.com/kaushal123-git)
